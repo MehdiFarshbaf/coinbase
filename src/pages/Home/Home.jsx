@@ -7,7 +7,9 @@ const Home = () => {
         changeTitlePage("Home Page")
     }, [])
     return (
-        <p className="header">home page</p>
+        <h1 className="text-3xl font-bold underline">
+            Hello world!
+        </h1>
     )
 }
 export default Home

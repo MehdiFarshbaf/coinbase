@@ -1,7 +1,9 @@
+import Header from "../components/Header/Header";
+
 const MainLayout = ({children}) => {
     return (
         <div>
-            <p>header</p>
+            <Header/>
             {children}
             <p>footer</p>
         </div>
