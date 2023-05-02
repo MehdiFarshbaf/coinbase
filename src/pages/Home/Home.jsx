@@ -7,7 +7,7 @@ const Home = () => {
         changeTitlePage("Home Page")
     }, [])
     return (
-        <p>home page</p>
+        <p className="header">home page</p>
     )
 }
 export default Home
